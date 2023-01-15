@@ -1,6 +1,6 @@
 /* ширина контента 1256рх */
 body {
-width: 1440px; 
+    /* width: 1440px; */
 margin: 0px;
 font-family: 'Nunito Sans';
 
@@ -10,10 +10,11 @@ display:flex;
 background-color: black;
 padding: 0px;
 align-items: center;
-width: 1438px;
+/* width: 1440px; */
 height: 83px;
 }
 .header_nav {
+    padding-left: 0px;
 list-style: none;
 display:flex;
 margin-top: 24px;
@@ -83,10 +84,11 @@ display: flex;
 font-family: 'Nunito Sans';
 outline: 0px;
 border: 0px;
-padding: 13px 33px;
+/* padding: 13px 33px; */
 margin-top: 37px;
 margin-bottom: 36px;
 margin-left: 92px;
+margin-right: 95.47px;
 align-items: center;
 text-transform: uppercase; 
 font-family: 'Nunito Sans';
@@ -96,13 +98,92 @@ font-size: 11px;
 color: #E3B873;
 }
 section.sectionone {
-   background-image: url(../img/fonsectionone.jpg);
+
+   background-image:  linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../img/fonsectionone.jpg);
+ 
 background-size: cover;
 height: 707px;
 }
+.container-section-onne {
+    /* display: flex; */
+    padding-top: 194px;
+   padding-right: 629px;
+   padding-bottom: 208px;
+   padding-left: 134px;
+width: 676.11px;
+height: 305px;
+left: 135px;
+top: 277px;
+}
 .container-section-one-h1 {
-    margin: 0px;
+margin: 0px;
+line-height: 25px;
+
 }
 .hm {
-    margin: 0px;
+margin: 0px;
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 53px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 35px;
+}
+.container-section-onetext {
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+margin-bottom: 35px;
+color: #FFFFFF;
+}
+.butttoncalc {
+    color:#FFFFFF;
+    width: 207px;
+    height: 51px; 
+background: #E3B873;
+box-shadow: 0px 5px 15px
+  rgba(227, 184, 115, 0.3);
+border-color: #E3B873;
+border-radius: 2px;
+font-family: 'Nunito Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+text-align: center;
+padding: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 21px;
+}
+.buttonappl{
+box-sizing: border-box;
+border: 1px solid #FFFFFF;
+border-radius: 2px;
+position: absolute;
+/* left: 24.72%;
+right: 60.9%;
+top: 7.07%;
+bottom: 92.25%; */
+
+border: 1px solid #FFFFFF;
+border-radius: 2px;
+color: #FFFFFF;
+width: 207px;
+height: 51px;
+background: none;
+/* box-shadow: 0px 5px 15px rgb(227 184 115 / 30%); */
+border-color: white;
+border-radius: 2px;
+font-family: 'Nunito Sans';
+font-style: italic;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+text-align: center;
+padding: 0px;
 }
