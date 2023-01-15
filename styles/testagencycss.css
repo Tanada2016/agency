@@ -1,20 +1,53 @@
 /* ширина контента 1256рх */
-/* nav {
-    display: inline;
+body {
+    width: 1256px;
+margin: 0px;
+font-family: 'Nunito Sans';
 }
-    
-    header.head {
-        display: inline;
-    }   */
 
-ul li {
+.head1 {
+    display:flex;
+    background-color: black;
+}
+nav {
+    padding: 13px 33px;
+margin-top: 37px;
+margin-bottom: 36px;
+}
+.header_nav {
+      list-style: none;
+      display:flex;
+      /* align-items: center;
+      justify-content: center; */
+      margin-top: 24px;
+      margin-bottom: 22px;
+    }
+  .heads {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 37px;
+    margin-bottom: 36px; */
+  }
+   .spisok {
     display: inline;
-
+    margin-right: 47px;
     list-style-type: none; /* Убираем маркеры */
+    text-transform: uppercase; 
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 15px;
+    
    }
-   ul a { 
+   .ss { 
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    color: white;
    } 
+   #cvet {
+    color: #E3B873;
+    }   
+
    .button {
     
 font-family: 'Nunito Sans';
@@ -31,6 +64,8 @@ border-radius: 2px;
 outline: 0px;
 border: 0px;
 padding: 13px 33px;
+margin-top: 37px;
+margin-bottom: 36px;
    }
  .tel {
     font-family: 'Nunito Sans';
@@ -38,7 +73,40 @@ font-style: normal;
 font-weight: 400;
 font-size: 11px;
 line-height: 15px;
-text-align: right;
+/* text-align: right; */
 text-decoration-line: underline;
 color: #E3B873;
+display: flex;
+align-items: center;
+padding: 13px 33px;
+margin-top: 37px;
+margin-bottom: 36px;
    }
+
+
+.logo {
+    /* padding-left: 94px;
+    padding-right: 94px;
+    margin-top: 37px;
+    margin-bottom: 36px; */
+    display: flex;
+    font-family: 'Nunito Sans';
+     outline: 0px;
+border: 0px;
+padding: 13px 33px;
+margin-top: 37px;
+margin-bottom: 36px;
+align-items: center;
+
+
+text-transform: uppercase; 
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+/* border: 0px;
+margin: 0px; */
+/* line-height: 15px; */
+
+color: #E3B873;
+}
