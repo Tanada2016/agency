@@ -1,6 +1,7 @@
 /* ширина контента 1256рх */
 body {
-    /* width: 1440px; */
+padding: 0px;
+width: 1440px;
 margin: 0px;
 font-family: 'Nunito Sans';
 
@@ -186,4 +187,85 @@ font-size: 11px;
 line-height: 15px;
 text-align: center;
 padding: 0px;
+}
+
+
+
+section.sectiontwo {
+    width: 1440px;
+    height: 1074px;
+}
+
+.containersec2 {
+
+    margin: 102px 120px 419.72px 149px;
+}
+
+.secttwo {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 0px;
+    margin-right: 52px;
+    margin-bottom: 45.36px;
+    margin-left: 492px;
+
+}
+
+.sppad {
+    padding: 0px;
+}
+.sectexxt {
+    width: 442px;
+    height: 390px;
+    padding: 0;
+    margin-top: 69.36px;
+    margin-right: 50px;
+    margin-bottom: 79.64px;
+    margin-left: 0px;
+}
+.textifot {
+    display: flex;
+    /* column-gap: 50px; */
+
+}
+.fotosec2st {
+
+    width: 679px;
+    height: 482.38px;
+    margin: 0px;
+    flex-shrink: 0;
+    
+}
+
+
+
+.exmpl {
+    width: 679px;
+    height: 482.38px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fotosec2st {
+    min-width: 109%;
+    min-height: 100%;
+    flex-shrink: 0;}
+
+
+
+
+
+#c2vet {
+    font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-transform: uppercase;
+
+color: #E3B873;
+
 }
