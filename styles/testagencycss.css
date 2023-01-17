@@ -1,10 +1,14 @@
 /* ширина контента 1256рх */
-body {
+* {
 padding: 0px;
-width: 1440px;
-margin: 0px;
+max-width: 1440px;
+/* max-height: 100%; */
+/* width: 1440px; */
+margin: auto;
 font-family: 'Nunito Sans';
-
+text-decoration: none;
+/* box-sizing:border-box; */
+background-size: 100% auto;
 }
 .head1 {
 display:flex;
@@ -192,13 +196,19 @@ padding: 0px;
 
 
 section.sectiontwo {
-    width: 1440px;
+    max-width: 100%;
+    /* max-height: 100%; */
+
+
+    /* width: 1440px;*/
     height: 1074px;
+    background:black; 
 }
 
 .containersec2 {
-
-    margin: 102px 120px 419.72px 149px;
+    
+    margin: 0px 120px 419.72px 149px;
+    padding-top: 102px;
 }
 
 .secttwo {
@@ -213,20 +223,53 @@ section.sectiontwo {
 
 }
 
-.sppad {
-    padding: 0px;
+/* .li.sec2nav.spisok {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 0.3);
+} */
+ 
+
+/* color: rgba(255, 255, 255, 0.3); */
+
+ul.sppad {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+    width: 623px;
+    height: 24px;
+    
 }
+.spiisok.cvf{
+    display: inline;
+    font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.3);
+}
+
 .sectexxt {
     width: 442px;
     height: 390px;
     padding: 0;
-    margin-top: 69.36px;
+    margin-top: 0px;
     margin-right: 50px;
     margin-bottom: 79.64px;
     margin-left: 0px;
+    color:white;
 }
 .textifot {
     display: flex;
+    border-color:black;
     /* column-gap: 50px; */
 
 }
@@ -242,23 +285,40 @@ section.sectiontwo {
 
 
 .exmpl {
-    width: 679px;
-    height: 482.38px;
+    width: 678px;
+    height: 480px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .fotosec2st {
+    object-fit: cover;
     min-width: 109%;
-    min-height: 100%;
-    flex-shrink: 0;}
+    min-height: 101%;
+    flex-shrink: 0;
+   
+}
 
 
 
 
 
 #c2vet {
+font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+list-style-type: none; 
+text-transform: uppercase;
+text-decoration-line:underline;
+
+color: #E3B873;
+
+}
+.spiisok.cvf {
+    display: inline;
     font-family: 'Yeseva One';
 font-style: normal;
 font-weight: 400;
@@ -266,6 +326,70 @@ font-size: 14px;
 line-height: 19px;
 text-transform: uppercase;
 
+color: rgba(255, 255, 255, 0.3);
+}
+
+.zag {
+    width: 253px;
+    height: 66px;
+    margin: 0px 189px 34px 0px;
+    font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 27px;
+line-height: 37px;
+letter-spacing: -0.07em;
+text-transform: uppercase;
+
 color: #E3B873;
+}
+
+.podzag01 {
+    width: 442px;
+    height: 86px;
+    margin: 0px 0px 34px 0px;
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+
+color: #FFFFFF;
+}
+.podzagol {
+    font-family: 'Yeseva One';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+
+color: #E3B873;
+}
+.sblok-2-t {
+display: flex;
+}
+.podzagol.city {
+    margin: 0px 143px 9px 0px;
+}
+.rost {
+    width: 161px;
+    height: 52px;
+    margin: 0px 29px 34px 0px;
+}
+.sblok-3-t, .sblok-5-t {
+    display: flex;
+    margin: 0px 29px 34px 0px;
 
 }
+
+.podzagol.time {
+    width: 156px;
+    height: 22px;
+    margin: 0px 34px 9px 0px;
+}
+.month {
+    width: 103px;
+    height: 24px;
+    margin: 0px 87px 9px 0px;
+ }
