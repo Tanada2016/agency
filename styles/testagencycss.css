@@ -46,11 +46,7 @@ margin-top: 24px;
 margin-bottom: 22px;
 text-decoration: none;
 }
-/* .heads {
-display: flex;
-justify-content: space-between;
 
-} */
 .spisok {
 display: inline;
 margin-right: 47px;
@@ -534,11 +530,94 @@ color: #181818;
         margin-bottom: 31px;
     }
 
+.section5__threeblok {
+    display: flex;
+    width: 1236px;
+    height: 608px;
+    justify-content: space-between;
 
+}
+.section5__foto1 {
+    background-image: url(../img/bl1.jpg);
+    width: 392px;
+    height: 421px;
+}
+.section5__foto2 {
+    background-image: url(../img/bl2.jpg);
+    width: 392px;
+    height: 421px;
+}
+.section5__foto3 {
+    background-image: url(../img/bl3.jpg);
+    width: 392px;
+    height: 421px;
+}
 
+.section5__button1 {
+    display: flex;
+    width: 228px;
+    height: 54px;
+    background: #E3B873;
+    box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+    padding: 17px 15.44px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    border-color:  #FFFFFF;
+    color: #FFFFFF;
+    align-items:center;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 31px;
+}
 
+.section5__h3 {
+    margin-top: 0px;
+    padding-top: 25px;
+    margin-bottom: 13px;
+    margin-left: 31px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    background: #FFFFFF;
+    color: #363636;
+}
+.section5__text1 {
+    /* width: 267px;
+    height: 178px; */
+    margin-left: 31px;
+    margin-right: 31px;
+    margin-top: -128px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
 
+}
+.section5__item {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
 
+    color: #959595;
+}
 
+.section6__menufeedback {
+    display: flex;
+    justify-content:space-between;
+}
 
-
+.section6__menu {
+    width: 1006px;
+    height: 645px;
+    background-image: url(../img/image\ 6.1.jpg)
+}
+.section6__feedback {
+    background-color: black;
+    z-index: 1;
+}
